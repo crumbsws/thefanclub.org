@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #BA1200;
+  overflow: hidden;
+}
+
+
+
+nav {
+  display:flex;
+  padding: 10px;
+  color: #FFF8F0;
+  background: #031927;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav h2{
+  font-family: "Crete Round", serif;
+  font-weight: 600;
+
+
+}
+
+.view_box {
+  overflow: hidden;
+  font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:100%;
+  color: #000000;
+  background: #FFF8F0;
+  gap: 5px;
+}
+
+.view_box form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-flow: column;
+}
+
+.view_box h2, .viewbox p {
+  font-family: "Crete Round", serif;
+  color: #000000;
+}
+
+.view_box img{
+  max-width: 20vw;
+  height: auto;
+}
+
+.view_box h2{
+  font-size: 32px;
+}
+
+.view_box input[type='email']{
+  border-radius: 5px;
+  outline:none;
+  height:30px;
+  width: 240px;
+  background: #ffffff;
+  border: 1px solid #ADA8B6;
+}
+.view_box input[type='submit']{
+  border-radius: 5px;
+  outline:none;
+  height:30px;
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #ADA8B6;
+}
