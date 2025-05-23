@@ -3,9 +3,9 @@
 
 require 'vendor/autoload.php';
 
-use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable(__DIR__);
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 
@@ -48,7 +48,7 @@ if (curl_errno($ch)) {
 } else {
     // Decode and print the response
     $decoded = json_decode($response, true);
-    echo $decoded['output'][0]['content'][0]['text']
+    echo $decoded['output'][0]['content'][0]['text'];
 }
 
 // Close cURL
